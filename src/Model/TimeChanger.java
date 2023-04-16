@@ -40,7 +40,6 @@ public class TimeChanger extends Thread {
      */
     @Override
     public void run() {
-        System.out.println(m.getNexus().toString());
         Clip clip = null;
         m.setStartTime(System.currentTimeMillis());
         while (!m.testLoose()) {

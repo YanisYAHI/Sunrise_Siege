@@ -33,7 +33,6 @@ public class ThreadDeplacement extends Thread {
      */
     @Override
     public void run() {
-        System.out.println(p.toString());
             for (Point point : points) {
                 while(this.p.isAttacking()){
                     try {
